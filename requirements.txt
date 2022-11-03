@@ -1,5 +1,6 @@
 
 pywebio-battery==0.3.0
+urllib3
 webdriver-manager==3.8.4
 selenium==3.9.0
 pywebio
