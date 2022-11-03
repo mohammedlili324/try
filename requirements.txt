@@ -1,20 +1,18 @@
 requests==2.23.0
 pywebio-battery==0.3.0
-deep-daze
+webdriver-manager==3.8.4
+selenium==3.9.0
 Pillow >= 7
 pywebio
 argparse
 flask
 pandas
 pyperclip
-webdrivermanager
-twilio
-phonenumbers
+webdrivermanager==0.10.0
 regex
 Jinja2
 MarkupSafe
 PyJWT
 PyNaCl
-PyPDF2
 Pygments
 
