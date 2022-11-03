@@ -14,4 +14,4 @@ MarkupSafe
 PyJWT
 PyNaCl
 Pygments
-packaging
+
