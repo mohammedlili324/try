@@ -1,2 +1,2 @@
 # MoiTr
-![](london.jpg)
+![](Hotpot.png)
