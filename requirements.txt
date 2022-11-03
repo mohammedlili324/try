@@ -1,8 +1,7 @@
-requests==2.23.0
+
 pywebio-battery==0.3.0
 webdriver-manager==3.8.4
 selenium==3.9.0
-Pillow >= 7
 pywebio
 argparse
 flask
