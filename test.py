@@ -49,6 +49,9 @@ def startw():
 
 
 
+app.add_url_rule('/tool','webio.view',webio_view(startw)
+                 ,methods=['GET','POST','OPTIONS'])
+
 
 
 
