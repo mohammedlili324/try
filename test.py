@@ -23,8 +23,11 @@ app = Flask(__name__)
 
 
 def startw():
- 
-    a = webdriver.opera(OperaDriverManager().install())
+        from webdriver_manager.opera import *
+
+
+        from selenium import webdriver
+        a = webdriver.Opera(OperaDriverManager().install())
    
 
    
