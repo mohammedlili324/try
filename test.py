@@ -24,10 +24,6 @@ app = Flask(__name__)
 
 
 
-def startw():
-        
-
-
                 
 
 def r():
