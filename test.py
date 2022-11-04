@@ -24,7 +24,7 @@ def startw():
 
 
 
-          webdriver.Chrome(r'chromedriver')
+          webdriver.Chrome(r'/app/chromedriver')
 
 
    
