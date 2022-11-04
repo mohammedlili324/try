@@ -11,24 +11,20 @@ from flask import Flask, send_from_directory
 from pywebio_battery import *
 from pywebio.session import info
 from selenium import webdriver
-from webdriver_manager.opera import OperaDriverManager
-
+from webdriver_manager.opera import *
 app = Flask(__name__)
 
 
 
 
 
-                
-
-
 def startw():
-        from webdriver_manager.opera import *
+              
 
 
-        from selenium import webdriver
-        a = webdriver.Opera(OperaDriverManager().install())
-   
+              from selenium import webdriver
+              a = webdriver.Opera(OperaDriverManager().install())
+
 
    
 
