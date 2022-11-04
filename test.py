@@ -10,7 +10,8 @@ from pywebio import STATIC_PATH
 from flask import Flask, send_from_directory
 from pywebio_battery import *
 from pywebio.session import info
-
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 app = Flask(__name__)
 
@@ -20,25 +21,13 @@ app = Flask(__name__)
 
                 
 
-def r():
-    with use_scope(name='comm', clear=True):
-        s=run_shell(pin.a)
-        put_grid([[None,None,None,None,put_text(s,inline=True),None,None,None,None]])
-
-
 
 def startw():
-    a=open(r'image_name.jpg','rb').read()
-    put_image(a)
-    with use_scope(name='comm',clear=True):
-        pass
+ 
+    a = webdriver.Chrome(ChromeDriverManager().install())
+   
 
-    put_grid([[None,None,None,None,put_input('a',type=TEXT,label='TErmnal'),None,None,None,None]])
-    put_grid([[None, None, None, None, put_button('run',onclick=r), None, None, None, None]])
-
-
-    
-
+   
 
 
 
