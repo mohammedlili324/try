@@ -3,11 +3,6 @@ from pywebio.input import *
 import time
 from pywebio.pin import *
 from pywebio.platform import *
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 import argparse
 from pywebio import start_server
 from pywebio.platform.flask import webio_view
@@ -15,7 +10,6 @@ from pywebio import STATIC_PATH
 from flask import Flask, send_from_directory
 from pywebio_battery import *
 from pywebio.session import info
-from webdriver_manager.chrome import ChromeDriverManager
 
 
 app = Flask(__name__)
