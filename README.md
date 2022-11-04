@@ -5,4 +5,4 @@
 [![Alternate Text]({Hotpot.png})]({y2meta.com-Darci - On My Own (slowed)(Tik tok)-(1080p).mp4} "Link Title")
 
 ![](download-gif-12.gif/ GIF)
-<img src="download-gif-12.gif/giphy.gif" width="40" height="40" />
+<img src="download-gif-12.gif/download-gif-12.gif" width="40" height="40" />
