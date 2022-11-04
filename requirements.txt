@@ -1,15 +1,12 @@
 
-pywebio-battery==0.3.0
+pywebio-battery
 urllib3
-webdriver-manager==3.8.4
-selenium==3.9.0
 pywebio
 argparse
 flask
 pandas
 packaging
 pyperclip
-webdrivermanager==0.10.0
 regex
 Jinja2
 MarkupSafe
