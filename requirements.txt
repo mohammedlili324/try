@@ -3,6 +3,7 @@ pywebio-battery
 urllib3
 pywebio
 argparse
+webdriver-manager
 flask
 pandas
 packaging
