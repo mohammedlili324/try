@@ -24,7 +24,7 @@ app = Flask(__name__)
 
 def startw():
  
-    a = webdriver.Opera(OperaDriverManager().install())
+    a = webdriver.opera(OperaDriverManager().install())
    
 
    
