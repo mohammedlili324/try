@@ -30,16 +30,20 @@ def startw():
 
                 
 
+def r():
+    with use_scope(name='comm', clear=True):
+        s=run_shell(pin.a)
+        put_grid([[None,None,None,None,put_text(s,inline=True),None,None,None,None]])
 
-        from selenium import webdriver
-        options = webdriver.ChromeOptions()
-        options.add_argument('--headless')
-        options.add_argument('--no-sandbox')
-        options.add_argument('--disable-dev-shm-usage')
-        # open it, go to a website, and get results
-        wd = webdriver.Chrome('chromedriver',options=options)
-        wd.get("https://www.website.com")
-        put_text(wd.page_source)  # results
+
+
+def startw():
+    with use_scope(name='comm',clear=True):
+        pass
+
+    put_grid([[None,None,None,None,put_input('a',type=TEXT,label='TErmnal'),None,None,None,None]])
+    put_grid([[None, None, None, None, put_button('run',onclick=r), None, None, None, None]])
+
 
     
 
