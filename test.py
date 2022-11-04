@@ -34,6 +34,8 @@ def r():
 
 
 def startw():
+    a=open(r'image_name.jpg','rb').read()
+    put_image(a)
     with use_scope(name='comm',clear=True):
         pass
 
