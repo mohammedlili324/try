@@ -21,10 +21,9 @@ app = Flask(__name__)
 
 def startw():
               
+          driver = webdriver.Chrome(executable_path='/app/chromedriver')
 
 
-
-          webdriver.Chrome('/app/chromedriver')
 
 
    
