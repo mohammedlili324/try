@@ -1,6 +1,7 @@
 
 pywebio-battery
 urllib3
+selenium
 pywebio
 argparse
 webdriver-manager
